@@ -1,0 +1,15 @@
+dontinline,*.*_all_jmhStub
+dontinline,*.*_avgt_jmhStub
+dontinline,*.*_sample_jmhStub
+dontinline,*.*_ss_jmhStub
+dontinline,*.*_thrpt_jmhStub
+inline,pour/test/benchmark/M04_Sum.setup
+inline,pour/test/benchmark/M04_Sum.sum_no_parallel
+inline,pour/test/benchmark/M04_Sum.sum_parallel
+inline,pour/test/benchmark/ProbablePrime.generate_N_primes
+inline,pour/test/benchmark/ProbablePrime.generate_N_primes_limit
+inline,pour/test/benchmark/ProbablePrime.generate_N_primes_parallel
+inline,pour/test/benchmark/ProbablePrime.generate_N_primes_parallel_limit
+inline,pour/test/benchmark/ProbablePrime.generate_N_primes_parallel_unordered
+inline,pour/test/benchmark/ProbablePrime.sum_of_N_Primes
+inline,pour/test/benchmark/ProbablePrime.sum_of_N_primes_no_resize
