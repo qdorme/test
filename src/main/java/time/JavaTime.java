@@ -39,5 +39,16 @@ public class JavaTime {
                 ZoneId.systemDefault());
 
         System.out.println(LocalDate.now(clock)); // 2023-01-01
+
+        Instant instant1 =
+                YearMonth.of(1970, Month.JANUARY)
+                        .atDay(1)
+                        .atStartOfDay()
+                        .toInstant(ZoneOffset.UTC);
+
+        System.out.println(instant1);
+
+
+        System.out.println(instant1);
     }
 }
